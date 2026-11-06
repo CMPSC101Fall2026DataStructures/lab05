@@ -73,6 +73,8 @@ writing/
 
 Each `.py` file is a module. `game.py` will coordinate the modules, while focused modules define the player, invaders, projectiles, background, and shared settings. Do not put the entire game in `main.py`.
 
+![--- --- --- --- --- --- --- --- ---](graphics/div_bar.png)
+
 ## To-Do Roadmap
 
 - Be sure to complete these tasks in their proper order. 
@@ -121,6 +123,8 @@ Each `.py` file is a module. `game.py` will coordinate the modules, while focuse
 13. Play a full round: move, shoot, get hit, clear a wave if you can, and restart after game over.
 14. Complete all eight questions in `writing/reflection.md`, referring to specific modules or imports in your own project.
 
+![--- --- --- --- --- --- --- --- ---](graphics/div_bar.png)
+
 ## Module Hints
 
 - A module is one `.py` file. The `space_invaders` directory is a package because it contains `__init__.py`.
@@ -134,6 +138,8 @@ Each `.py` file is a module. `game.py` will coordinate the modules, while focuse
 - Prefer importing only the module or names that you use. Avoid wildcard imports.
 - Keep each module focused. The game loop should coordinate behavior, not duplicate every sprite's implementation.
 - `if __name__ == "__main__":` prevents an entry point from running automatically when imported.
+
+![--- --- --- --- --- --- --- --- ---](graphics/div_bar.png)
 
 ## Running and Submitting
 
@@ -150,6 +156,8 @@ As you work, commit and push regular, meaningful changes to your GitHub reposito
 3. `writing/reflection.md` with all eight questions answered in your own words.
 
 Before submitting, search `src/` for `To-Do` and test the controls above.
+
+![--- --- --- --- --- --- --- --- ---](graphics/div_bar.png)
 
 ## Submission
 
